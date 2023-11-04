@@ -20,8 +20,8 @@ rend.setShader(vertexShader = vertex_shader,
 			   fragmentShader = fragment_shader)
 
 
-model = Model("modelos/hongo.obj")
-model.loadTexture("texturas/thongo.bmp")
+model = Model("modelos/TropicalFish01.obj")
+model.loadTexture("texturas/tropicalfish01.bmp")
 model.position.z = -5.5
 model.scale = glm.vec3(2,2,2)
 model.rotation.x = 45
